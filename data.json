@@ -1,0 +1,187 @@
+{
+  "users": [
+    {
+      "email": "kmgn@abc.com",
+      "password": "$2a$10$kFil.bXPSLvXxxFi5nS6se7mZfVK49/9KIrlVY9G2/XYs0MfJiPrC",
+      "username": "kmgn",
+      "type": "admin",
+      "id": 1
+    },
+    {
+      "email": "guest@abc.com",
+      "password": "$2a$10$0JFFpvaJ9oepA1jzZ.FLxukqFegI.nVwKvtlwYJbFIKOVsm60SuQu",
+      "username": "guest",
+      "type": "user",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 50,
+      "name": "Maxima Max Pro X4+",
+      "type": "Watches",
+      "price": "1450",
+      "image": "MaximaMaxProX4.jpg",
+      "description": "Maxima Max Pro X4+ Rugged Bluetooth Calling Smart Watch 1.32 Round Always on Premium Display with 360x360 px Resolution, AI Voice Assitant, Advance UI, 340 mah Big Battery, HR/SpO2, 150+ Watch Faces",
+      "qty": "21"
+    },
+    {
+      "id": 51,
+      "name": "Citizen Analog Watch-NJ0150-81Z",
+      "type": "Watches",
+      "price": "3900",
+      "image": "NJ0150-81Z.jpg",
+      "description": "Automatic mechanical movement, manufactured by Citizen Watch Co., ltd. This watch is equipped with a movement, Made in Japan. Automatic Date Display. Operating time of approx. 40 hours when fully wound. 1 Year International Warranty",
+      "qty": "51"
+    },
+    {
+      "id": 52,
+      "name": "Fastrack New Limitless FS1",
+      "type": "Watches",
+      "price": 1250,
+      "image": "FastrackFS1.jpg",
+      "description": "Fastrack New Limitless FS1 Smart Watch|Biggest 1.95 Horizon Curve Display|SingleSync BT Calling v5.3|Built-in Alexa|Upto 5 Day Battery|ATS Chipset with Zero Lag|100+ Sports Modes|150+ Watchfaces",
+      "qty": "10"
+    },
+    {
+      "id": 53,
+      "name": "Casio G-Shock Analog",
+      "type": "Watches",
+      "price": "4299",
+      "image": "CasioG-Shock.jpg",
+      "description": "Casio G-Shock Analog-Digital Black Dial Men's Watch",
+      "qty": "2"
+    },
+    {
+      "id": 54,
+      "name": "Alexandre Christie 9205",
+      "type": "Watches",
+      "price": "9900",
+      "image": "AlexandreChristie9205.jpg",
+      "description": "Alexandre Christie 9205 MCL Chronograph For Men – Rose Gold Brown",
+      "qty": "10"
+    },
+    {
+      "id": 55,
+      "name": "Jam & Honey Dino",
+      "type": "Toys",
+      "price": "450",
+      "image": "JamHoneyDino.jpg",
+      "description": "Amazon Brand - Jam & Honey Dino, Magenta, 22 cm",
+      "qty": "35"
+    },
+    {
+      "id": 56,
+      "name": "Jam & Honey Elephant",
+      "type": "Toys",
+      "price": "1450",
+      "image": "JamHoneyElephant.jpg",
+      "description": "Amazon Brand - Jam & Honey Elephant Tusker Ride-on, Multicolor",
+      "qty": "11"
+    },
+    {
+      "id": 57,
+      "name": "LuvLap Starlight Ride on & Car",
+      "type": "Toys",
+      "price": "8700",
+      "image": "LuvLapStarlightRideCar.jpg",
+      "description": "LuvLap Starlight Ride on & Car for Kids with Music & Horn Steering, Push Car for Baby with Backrest, Safety Guard, Under Seat Storage & Big Wheels, Ride on for Kids 1 to 3 Years Upto 25 Kgs (Orange)",
+      "qty": "7 oz"
+    },
+    {
+      "id": 58,
+      "name": "AGARO Supreme High Pressure Washer",
+      "type": "CarWasher",
+      "price": "4500",
+      "image": "AGAROSupremeHighPressureWasher.jpg",
+      "description": "AGARO Supreme High Pressure Washer, 1800 Watts, 120 Bars, 6.5L/Min Flow Rate, 8 Meters Outlet Hose, Portable, for Car,Bike and Home Cleaning Purpose, Black and Orange",
+      "qty": "24"
+    },
+    {
+      "id": 59,
+      "name": "Bosch Aquatak 125",
+      "type": "CarWasher",
+      "price": "9800",
+      "image": "BoschAquatak125.jpg",
+      "description": "Bosch Aquatak 125 1500-Watt High Pressure Washer",
+      "qty": "70"
+    },
+    {
+      "id": 60,
+      "name": "NSA Soft Cute Doll",
+      "type": "Toys",
+      "price": "250",
+      "image": "NSASoftCuteDoll.jpg",
+      "description": "NSA Soft Cute Doll | Attractive Stuffed Toys | Grab Your Attention on Little Darling Doll for Girls (Dark Pink, SIJUKA Doll 50 Cm)",
+      "qty": "89"
+    },
+    {
+      "id": 61,
+      "name": "Rolling Hand Bell Ball Rattles Toy",
+      "type": "Toys",
+      "price": "210",
+      "image": "RollingHandBellBallRattles.jpg",
+      "description": "HinikCorporation Kid's Soft Plastic Rubber Body Rolling Hand Bell Ball Rattles Toy (Multicolour)",
+      "qty": "42"
+    },
+    {
+      "id": 62,
+      "name": "Aimex High Pressure Car Washer",
+      "type": "CarWasher",
+      "price": "4890",
+      "image": "AimexHighPressureCarWasher.jpg",
+      "description": "Aimex High Pressure Car Washer Machine for Cleaning Car, Bike & Home with 2000 Watts and Pressure 130 Bar",
+      "qty": "67"
+    },
+    {
+      "id": 63,
+      "name": "BLAGO Water Spray Gun Car Wash",
+      "type": "CarWasher",
+      "price": "480",
+      "image": "BLAGOWaterSprayGunCarWash.jpg",
+      "description": "BLAGO Water Spray Gun Car Wash Nozzle High Pressure Nozzle Spray Water Gun Water Jet Hose Nozzles Pipe For Gardening, Bike Car Wash Garden Watering Tool Black High Pressure Nozzle with 3 Attachment",
+      "qty": "11"
+    },
+    {
+      "id": 64,
+      "name": "Crownish 21V Wireless Portable 319 PSI",
+      "type": "CarWasher",
+      "price": "4499",
+      "image": "Crownish21VWirelessPortable319PSI.jpg",
+      "description": "Crownish 21V Wireless Portable 319 PSI High Pressure Automatic Car/Bike Washer Ideal for Garden Watering, Agricultural irrigating, car Washing, Household Cleaning",
+      "qty": "65"
+    }
+  ],
+  "salesbyproduct": [
+    {
+      "y": 28.5,
+      "name": "Toys"
+    },
+    {
+      "y": 28.2,
+      "name": "CarWasher"
+    },
+    {
+      "y": 14.4,
+      "name": "Watches"
+    }
+  ],
+  "salesbymonth": [
+    {
+      "y": 10,
+      "name": "Mar"
+    },
+    {
+      "y": 18.5,
+      "name": "Apr"
+    },
+    {
+      "y": 28.2,
+      "name": "May"
+    },
+    {
+      "y": 14.4,
+      "name": "Jun"
+    }
+  ]
+}

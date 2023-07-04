@@ -1,0 +1,8 @@
+.right{
+    width: 450px;
+    height: 4500px;
+    margin: 20px;
+
+    display: inline-block;
+    cursor: pointer;
+}

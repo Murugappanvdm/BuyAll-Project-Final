@@ -1,0 +1,69 @@
+<nav class="navbar navbar-expand-sm bg-green navbar-dark">
+  <div>
+    <ul class="navbar-nav ml-auto borderlogo">
+      <li class="nav-item">
+        <a class="nav-link" href="">
+          <img src="http://localhost:8090/BuyAll/BuyAllLogo.png" alt="" class="title-img" />
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div>
+
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+
+        <a class="nav-link" href="admin/home" *ngIf="prodshow" (click)="dashboardshow()">
+          <img src="http://localhost:8090/BuyAll/dashboard.png" alt="" class="icon-img" />Dashboard
+        </a>
+
+      </li>
+
+      <li class="nav-item">
+
+        <a class="nav-link" href="user/home" *ngIf="prodshow" (click)="productshow()">
+          <img src="http://localhost:8090/BuyAll/products.png" alt="" class="icon-img" />Products
+        </a>
+
+      </li>
+
+      <li class="nav-item">
+
+
+        <a class="nav-link" href="/login" (click)="logout()">
+          <img src="http://localhost:8090/BuyAll/user.png" alt="" class="icon-img" />
+          Hi , {{username}} (Logout) </a>
+
+      </li>
+
+
+      <li class="nav-item" *ngIf="cartshow" (click)="navigate('cart')">
+        <a to="/cart">
+          <img src="http://localhost:8090/BuyAll/cart.png" class="icon-img" />
+          <span class="badge badge-warning">{{cartCount}}</span>
+        </a>
+      </li>
+
+
+    </ul>
+  </div>
+</nav>
+<!--
+<div class="user-menu">
+  <ul>
+    <li (click)="navigate(urls[0])">
+      <img src="http://localhost:8090/{{pictures[0]}}">
+      {{strings[0]}}
+    </li>
+    <li (click)="navigate(urls[1])">
+      <img src="http://localhost:8090/{{pictures[1]}}">
+      {{strings[1]}}
+    </li>
+    <li (click)="navigate(urls[2])">
+      <img src="http://localhost:8090/{{pictures[2]}}">
+      {{strings[2]}}
+    </li>
+  </ul>
+</div>
+-->
