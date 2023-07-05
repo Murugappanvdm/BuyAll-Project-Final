@@ -21,19 +21,19 @@ export class UserhomeComponent implements OnInit {
      error: ()=> this.products = []
     }
     )
-    this.ps.getProducts2("CarWasher").subscribe(
+    this.ps.getProducts2("off").subscribe(
       {
         next: (data:product[])=>this.fproducts = data,
         error: ()=> this.fproducts = []
        }
    )
-   this.ps.getProducts2("Toys").subscribe(
+   this.ps.getProducts2("today").subscribe(
     {
       next: (data:product[])=>this.vproducts = data,
       error: ()=> this.vproducts = []
      }
    )
-   this.ps.getProducts2("Watches").subscribe(
+   this.ps.getProducts2("new").subscribe(
     {
       next: (data:product[])=>this.sproducts = data,
       error: ()=> this.sproducts = []
