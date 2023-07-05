@@ -30,6 +30,14 @@
 
       <li class="nav-item">
 
+        <a class="nav-link" href="/addproduct" *ngIf="prodshow" (click)="addproduct()">
+          <img src="http://localhost:8090/BuyAll/addproduct.png" alt="" class="icon-img" />Add Products
+        </a>
+
+      </li>
+
+      <li class="nav-item">
+
 
         <a class="nav-link" href="/login" (click)="logout()">
           <img src="http://localhost:8090/BuyAll/user.png" alt="" class="icon-img" />

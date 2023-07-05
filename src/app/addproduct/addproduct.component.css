@@ -1,0 +1,13 @@
+.rform {
+    border: 2px solid rgb(74, 72, 72);
+    padding: 20px;
+    margin: 30px;
+    width: 800px;
+}
+h3{
+    color: darkblue;
+    font-weight: bolder;
+}
+.item-label{
+    color: darkblue;
+}

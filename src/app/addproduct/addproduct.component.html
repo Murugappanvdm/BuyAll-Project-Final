@@ -1,0 +1,54 @@
+<div class="rform">
+    <img src="http://localhost:8090/BuyAll/BuyAllLogo.png" alt="" style="height: 50px;width: 100px;">
+    <p></p>
+    <h3> Add Products</h3>
+    
+   <form [formGroup]="eform" (submit)="postProductDetails()">
+   <table>
+      <tr>
+         <td class="item-label"> Name [ min 3 chars] </td>
+         <td><input type="text" class="medium-input" formControlName="name"></td>
+      </tr>
+      <tr>
+        <td class="item-label"> Description [min 20 chars] </td>
+        <td><textarea class="large-input" formControlName="description"></textarea></td>
+     </tr>
+      <tr>
+        <td class="item-label"> Category </td>
+        <td><input type="text" class="medium-input" formControlName="category"></td>
+     </tr>
+     <tr>
+        <td class="item-label"> Type </td>
+        <td><input type="text" class="medium-input" formControlName="type"></td>
+     </tr>     
+      <tr>
+        <td class="item-label"> Price </td>
+        <td><input type="text" class="medium-input" formControlName="price"></td>
+     </tr>
+     <tr>
+        <td class="item-label"> Quantity </td>
+        <td><input type="text" class="medium-input" formControlName="qty"></td>
+     </tr>     
+
+     <tr *ngIf="ftoggle">
+        <td class="item-label"> Upload File </td>
+        <td><input type="file" class="medium-input" 
+          
+         (change)="uploadFile1($event)" ></td>
+     </tr>
+
+     <tr>
+    
+        <td style="text-align: center" colspan="2">
+            <button mat-raised-button color="primary" 
+              type="submit"
+
+             >Post Enquiry</button></td>
+     </tr>
+   </table>
+</form>
+  
+<br/><br/>
+       <mat-slide-toggle [(ngModel)]="ftoggle">Upload Document</mat-slide-toggle>
+
+</div>

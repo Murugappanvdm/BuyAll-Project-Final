@@ -52,6 +52,11 @@ export class MenuOutlineComponent implements OnInit {
     sessionStorage.setItem("prodshow","true");
     this.router.navigate(["user/home"]);
   }
+  addproduct()
+  {
+    sessionStorage.setItem("addprod","true");
+    this.router.navigate(["addproduct"]);
+  }
   dashboardshow()
   {
     sessionStorage.setItem("prodshow","");

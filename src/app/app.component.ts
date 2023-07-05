@@ -25,6 +25,9 @@ export class AppComponent {
       if (sessionStorage.getItem("prodshow") == "true") {
         this.router.navigate(['user/home']);
       }
+      else if (sessionStorage.getItem("addprod") == "true") {
+        this.router.navigate(['addproduct']);
+      }
       else {
         if (this.log.usertype == "admin")
           this.router.navigate(['admin/home']);

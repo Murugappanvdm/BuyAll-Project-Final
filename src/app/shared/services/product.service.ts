@@ -2,6 +2,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -41,5 +42,16 @@ export class ProductService {
     let retval: any;
     retval = this.http.get("http://localhost:4500/salesbymonth", this.httpOptions);
     return retval
+  }
+
+  public AddProductDetails(obj:any,fflag:boolean):Observable<any> {
+    this.httpOptions = {
+      headers: new HttpHeaders({
+        'Content-Type':  'application/json'
+      })
+    }
+    if(!fflag)
+      return this.http.post("http://localhost:4500/products",obj,this.httpOptions)
+    return this.http.post("http://localhost:4500/products",obj)
   }
 }
